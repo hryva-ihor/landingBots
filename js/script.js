@@ -61,3 +61,27 @@ $(document).ready(function() {
     }
     update();
 });
+
+
+
+// open/close  popap contact block
+const PopupBlock = document.querySelector('#Popup');
+const PopupCloseBtn = document.querySelector('#closeBtn');
+const styleBlock = document.querySelector('#contactBlock');
+const body = document.querySelector(`body`);
+
+//! open/close fixed popup block
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+  console.log(`hi`);
+  // console.log(`click`);
+  PopupBlock.classList.add("displayBlock");
+  }, 3000);
+});
+
+PopupCloseBtn.addEventListener("click", () => {
+  console.log(`click close btn`);
+  PopupBlock.classList.remove("displayBlock");
+  // wrapper.classList.remove("overlay");
+  window.onscroll = function () { return false };
+});
