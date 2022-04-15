@@ -1478,7 +1478,8 @@ h2 span {
 	right: -20px;
 	width: 40px;
 	height: 40px;
-	background-image: url(https://free-png.ru/wp-content/uploads/2021/06/free-png.ru-38-450x450.png);
+	background-image: url(../img/close_btn:jpg.png);
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 
